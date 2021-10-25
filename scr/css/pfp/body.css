@@ -1,0 +1,12 @@
+body,html {
+	height: 850px;
+	width: 100%;
+	margin: 0px;
+	background-color: black
+}
+
+.container-fluid{
+	background-color: #202635;
+	height: 850px;
+	width: 100%;
+}

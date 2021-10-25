@@ -1,0 +1,542 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+			
+@import url('https://fonts.googleapis.com/css2? family = Lato: wght @ 900 & display = swap'); 
+
+.barra-nav{
+	position: fixed;
+	right: 5%;
+	background-color: #534DFF;
+	width: 100%;
+	height: 80px;
+	border-end-end-radius: 10px;
+	z-index: 1;
+	
+}
+.fundo-1{
+	position: absolute;
+	background-color: #2A2F42;
+	width: 90%;
+	height: 600px;
+	top: 120px;
+	right: 5%;
+	left: 5%;
+	border-radius: 10px;
+	
+}
+
+.bot-perfil-card-1{
+	position: absolute;
+	width: 26%;
+	border-radius: 9px;
+	left: 30px;
+	top: 25px;
+	
+}
+.title-fundo-1{
+	position: absolute;
+	top: -15px;
+	left: 9px;;
+	font-family: 'Poppins', sans-serif;
+	font-size: 35px;
+	color: #534DFF;
+	
+}
+.fundo-1-body-text{
+	position: absolute;
+	top: 1%;
+	width: 99%;
+	height: 400px;
+	left: 1%;
+	color: #F4F4F4;
+	
+}
+.text-main{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 7%;
+	top: 70px;
+	margin: 1px;
+	font-size: 20px;
+	display: inline-block;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+padding-bottom: 1px;
+	
+}
+.fundo-1-body{
+	position: absolute;
+	width: 58%;
+	height: 96%;
+	left: 40%;
+	top: 2%;
+	background-color: #2A2F42;
+	
+}
+.add{
+	font-family: 'Poppins', Sans-Serif;
+	font-size: 1.1em;
+	position: absolute;
+	bottom: 18%;
+	left: 43%;
+	text-decoration: none;
+	width: 48%;
+	height: 13%;
+	background-color: gold;
+	border-radius: 11px;
+border: none;
+	
+}
+		
+.suporte{
+	font-family: 'Poppins', Sans-Serif;
+			font-size: 1.1em;
+	position: absolute;
+	bottom: 3%;
+	left: 43%;
+	text-decoration: none;
+	width: 48%;
+		height: 13%;
+	background-color: gold;
+	border-radius: 11px;
+	border: none;
+		color: white;
+	
+}
+.suporte:active{
+	border: solid yellow;
+	transform: rotateY(180deg);
+	transition-duration: .2s;
+	
+}
+.suporte:hover{
+	color: white;
+	border: solid yellow;
+	
+}
+.add:active{
+	border: solid yellow;
+	transform: rotateY(180deg);
+	transition-duration: .2s;
+	
+}
+.add:hover{
+	color: white;
+	border: solid yellow;
+	
+}
+.button{
+	border-radius: 9px;
+	border: none;
+	padding: 0px;
+	border: 0px;
+	position: absolute;
+	bottom: 19%;
+	right: 5px;
+	width: 60px;
+	height: 50px;
+	
+}
+.button:active{
+	position: absolute;
+	bottom: 19%;
+	right: 10%;
+	width: 60px;
+	height: 50px;
+	font-family: 'Poppins';
+	font-size: 60px;
+	transform: rotateY(90deg);
+	transition-duration: .9s;
+	
+}
+.button:hover{
+			transform: rotateY(90deg);
+			transition-property: .9s;
+	
+}
+/*parte 2*/
+.fundo-2{
+	position: absolute;
+	background-color: #2A2F42;
+	width: 90%;
+	height: 350px;
+	top: 760px;
+	right: 5%;
+	left: 5%;
+	border-radius: 10px;
+	
+}
+
+.text-fundo-2-use{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 60px;
+	top: 18px;
+	margin: 1px;
+	font-size: 123%;
+	display: inline-block;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	display: inline;
+	
+}
+.fundo-icon{
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 40px;	
+}
+#item-interrogacao2{
+	top: 15px;
+}
+.fundo-2-resposta-interrogacao{
+	position: absolute;
+	top: 70px;
+	left: 3%;
+	width: 90%;
+	height: 250px;
+	border-radius: 9px;
+	background-color: #202649;
+}
+.fundo-2-resposta{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 7%;
+	top: 5px;
+	margin: 1px;
+	font-size: 1.1em;
+	display: block;
+	align-items: center;
+	color: #030715;
+	
+}
+
+/*parte 3*/
+
+.fundo-3{
+	position: absolute;
+	background-color: #2A2F42;
+	width: 90%;
+	height: 350px;
+	top: 1150px;
+	right: 5%;
+	left: 5%;
+	border-radius: 10px;
+	
+}
+.text-fundo-3-use{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 60px;
+	top: 18px;
+	margin: 1px;
+	font-size: 123%;
+	display: inline-block;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	display: inline;
+	
+}
+
+#item-interrogacao3{
+	top: 15px;
+}
+.fundo-3-resposta-interrogacao{
+	position: absolute;
+	top: 70px;
+	left: 3%;
+	width: 90%;
+	bottom: 30px;
+	border-radius: 9px;
+	background-color: #202649;
+}
+.fundo-3-resposta{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 7%;
+	top: 5px;
+	margin: 1px;
+	font-size: 1.1em;
+	display: block;
+	align-items: center;
+	color: #030715;
+	
+}
+
+/*parte 4*/
+
+.fundo-4{
+	position: absolute;
+	background-color: #2A2F42;
+	width: 90%;
+	height: 350px;
+	top: 1540px;
+	right: 5%;
+	left: 5%;
+	border-radius: 10px;
+	
+}
+.text-fundo-4-use{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 60px;
+	top: 18px;
+	margin: 1px;
+	font-size: 123%;
+	display: inline-block;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	display: inline;
+	
+}
+
+#item-interrogacao4{
+	top: 15px;
+}
+.fundo-4-resposta-interrogacao{
+	position: absolute;
+	top: 70px;
+	left: 3%;
+	width: 90%;
+	bottom: 30px;
+	border-radius: 9px;
+	background-color: #202649;
+}
+.fundo-4-resposta{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 7%;
+	top: 5px;
+	margin: 1px;
+	font-size: 1.1em;
+	display: block;
+	align-items: center;
+	color: #030715;
+	
+}
+/*parte 5*/
+
+.fundo-5{
+	position: absolute;
+	background-color: #2A2F42;
+	width: 90%;
+	height: 350px;
+	top: 1930px;
+	right: 5%;
+	left: 5%;
+	border-radius: 10px;
+	
+}
+.text-fundo-5-use{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 60px;
+	top: 18px;
+	margin: 1px;
+	font-size: 123%;
+	display: inline-block;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	display: inline;
+	
+}
+
+#item-interrogacao5{
+	top: 15px;
+}
+.fundo-5-resposta-interrogacao{
+	position: absolute;
+	top: 70px;
+	left: 3%;
+	width: 90%;
+	bottom: 30px;
+	border-radius: 9px;
+	background-color: #202649;
+}
+.fundo-5-resposta{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 7%;
+	top: 5px;
+	margin: 1px;
+	font-size: 1.1em;
+	display: block;
+	align-items: center;
+	color: #030715;
+	
+}
+
+/*parte 6*/
+
+.fundo-6{
+	position: absolute;
+	background-color: #2A2F42;
+	width: 90%;
+	height: 240px;
+	top: 2320px;
+	right: 5%;
+	left: 5%;
+	border-radius: 10px;
+	
+}
+.text-fundo-6-use{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 60px;
+	top: 18px;
+	margin: 1px;
+	font-size: 123%;
+	display: inline-block;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	display: inline;
+	
+}
+
+#item-interrogacao6{
+	top: 15px;
+}
+.fundo-6-resposta-interrogacao{
+	position: absolute;
+	top: 70px;
+	left: 3%;
+	width: 90%;
+	bottom: 30px;
+	border-radius: 9px;
+	background-color: #202649;
+}
+.fundo-6-resposta{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 7%;
+	top: 5px;
+	margin: 1px;
+	font-size: 1.1em;
+	display: block;
+	align-items: center;
+	color: #030715;
+	
+}
+
+/*footer*/
+
+.footer{
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	border-radius: 10px;
+	height: 360px;
+	background-color: #2A2F42;
+	top: 2600px;
+}
+.nome-devs{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+	background-color: #202649;
+	border-bottom-right-radius: 11px;
+	border-bottom-left-radius: 11px;
+}
+.nome-devs-text{
+	font-family: 'Poppins';
+	position: absolute;
+	left: 60px;
+	top: 12px;
+	margin: 1px;
+	font-size: 124%;
+	display: inline-block;
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 1px;
+	display: inline;
+}
+.ic-devs{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 40px;
+}
+.dev-details{
+	position: absolute;
+	top: 80px;
+	width: 94%;
+	left: 3%;
+	height: 270px;
+}
+.dev-details-img{
+	position: absolute;
+	top: 10px;
+	width: 60px;
+	left: 10px;
+	border-radius: 12px;
+}
+.dev-details-1{
+	position: absolute;
+	top: 5px;
+	width: 100%;
+	height: 80px;
+	border-radius: 9px;
+}
+.dev-linha{
+	position: absolute;
+	top: 88px;
+	left: 3%;
+	width: 94%;
+	height: 2px;
+	background-color: #2A2F60;
+	border-radius: 20%;
+}
+.dev-details-2{
+	position: absolute;
+	top: 97px;
+	width: 98%;
+	left: 1%;
+	height: 75px;
+	border-radius: 9px;
+}
+.card-dev{
+	position: absolute;
+	left: 80px;
+	width: 75%;
+	height: 68px;
+	background-color: #2A2F57;
+	border-radius: 9px;
+}
+#card-dev-2{
+	top: 6px;
+}
+.text-dev{
+	position: absolute;
+	top: 17px;
+	left: 5px;
+	font-family: 'Poppins';
+	font-size: 19px;
+}
+.text-developer-dev{
+	font-family: 'Poppins';
+	position: absolute;
+	font-size: 6px;
+	bottom: 2px;
+	left: 10px;
+	color: #008CFF;
+}
+.dev-discord{
+	position: absolute;
+	top: 15px;
+	right: 8px;
+	width: 40px;
+}

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family = Lato: wght @ 900 & display = swap'); 
+
+@import url('https://fonts.googleapis.com/css2? family = Roboto & display = swap');
+
+.barra-nav{
+	position: fixed;
+	right: 5%;
+	background-color: #534DFF;
+	width: 100%;
+	height: 80px;
+	border-end-end-radius: 10px;
+	z-index: 1;
+	
+}
+.button{
+	border-radius: 9px;
+	border: none;
+	padding: 0px;
+	border: 0px;
+	position: absolute;
+	bottom: 19%;
+	right: 5px;
+	width: 60px;
+	height: 50px;
+	
+}
+.button:active{
+	position: absolute;
+	bottom: 19%;
+	right: 10%;
+	width: 60px;
+	height: 50px;
+	font-family: 'Poppins';
+	font-size: 60px;
+	transform: rotateY(90deg);
+	transition-duration: .9s;
+	
+}
+.button:hover{
+			transform: rotateY(90deg);
+			transition-property: .9s;
+	
+}
+/*parte 2*/
+.card-server{
+	position: absolute;
+	background-color: #2A2F42;
+	top: 120px;
+	width: 70%;
+	height: 60px;
+	right: 5%;;
+	border-radius: 10px;
+	
+}
+.card-server-left{
+  position: absolute;
+  background-color: #2A2F42;
+  top: 120px;
+  width: 60px;
+  height: 60px;
+  left: 5%;
+  border-radius: 10px;
+
+}
+.card-layout{
+  position: absolute;
+  top: 225px;
+  width: 90%;
+  height: 250px;
+  left: 5%;
+  background-color: #2A2F49;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 11px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 11px;
+}
+
+h4{
+  position: absolute;
+  left: 2px;
+  top: -25px;
+  background-color: #13388A;
+  border-radius: 4px;
+  font-family: 'Arial', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 2px;
+  border: 2px;
+  margin: 0px;
+}
+.img-config{
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  width: 52px;
+  height: 52px;
+}
+.img-config:active{
+	animation: config initial 2s;
+}
+
+@keyframes config{
+	from{
+		transform: translateX(100px)
+	}
+	to{
+		transform: translateX(20px)
+	}
+}
+@keyframes click{
+	0%{
+		background-color: #343992;
+	}
+	100%{
+		background-color:#343992;
+	}
+}
+@keyframes botao{
+		0%{
+			background-color: #343972;
+		}
+		33%{
+			background-color: #343992;
+		}
+		66%{
+			background-color: #4E4292;
+		}
+		100%{
+			background-color: #343972; 
+		}
+}
+.p-server{
+  position: absolute;
+  left: 30px;
+  top: 25%;
+  font-size: 20px; 
+  font-family: 'Poppins', sans-serif;
+  font-weight: Bold;
+  color: white;
+  margin: 0px;
+}
+.card-01{
+  position: absolute;
+  width: 80%;
+  left: 4%;
+  height: 60px;
+  background-color: #3A4099;
+  border-radius: 8px;
+  animation: botao infinite 9s;
+}
+.card-01:active{
+  animation: click initial 1s;
+}
+.link-cards{
+	position: absolute;
+	left: 10px;
+  width: 96%;
+  height: 100%;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent
+}
+.link-cards:active{
+  text-decoration: none;
+}
+.link-cards:hover{
+  text-decoration: none;
+}
+.img-card{
+  position: absolute;
+  width: 40px;
+  top: 10px;
+}
+/*IDs dos card*/
+#layout-perfil{
+  top: 25px;
+}
+#background-perfil{
+  top: 95px;
+}
+#loja-perfil{
+  top: 165px;
+}
+#layout-daily{
+  top:25px;
+}
+#layout-cart{
+  top: 95px;
+}
+
+.card-layout-01{
+  position: absolute;
+  top: 515px;
+  width: 90%;
+  height: 180px;
+  left: 5%;
+  background-color: #2A2F49;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+/**/
+
+.text-link{
+  color: white;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 1.1em;
+  position: absolute;
+  left: 50px;
+  top: 15px;
+  display: block;
+  margin: 0px;
+  border: 0px;
+}
+.termos{
+  position: absolute;
+  top: 780px;
+  width: 90%;
+  height: 30px;
+  left: 5%;
+  background-color: #2A2F49;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.text-termos{
+  position: absolute;
+  left: 10px;
+  top: 4px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7em;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  
+}
+/*Log out*/
+
+.log-out{
+  position: absolute;
+  top: 710px;
+  width: 90%;
+  height: 50px;
+  left: 5%;
+  background-color: #2A2F49;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.log-out:active{
+  background-color: #383DB5;
+}
+.img-log{
+  position: absolute;
+  width: 30px;
+  top: 10px;
+  left: 20px;
+}
+.text-log{
+  position: absolute;
+  left: 70px;
+  top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  color: #D82626;
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+.link-log-out{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent
+}
+/*Links Termos de Servicos*/
+
+.link-termos:active{
+	color: #2645D8;
+}

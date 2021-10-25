@@ -1,0 +1,53 @@
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div>
+		<h1 class="jsH1"></h1>
+		<input type="text" class="jsInput">
+	</div>
+	<script>
+		$(document).ready(function() {
+			//Nós definimos variáveis
+			var h1Content = 'Titunnlo pra o H1';
+			var inputContent = 'Valor do input';
+
+			//Nós carregamos as variáveis anteriores para seus respectivos contêineres
+			$('.jsH1').text(h1Content);
+			$('.jsInput').val(inputContent);
+
+		})
+	</script>
+	<div id="campo1"> 
+a
+</div>
+
+<script>
+const firebase = require("firebase")
+var firebaseConfig = {
+apiKey: "AIzaSyDaBjQQgDmon2dlHr-QmquI8tKIbuzXV1Q",
+authDomain: "stellar-62f9f.firebaseapp.com",
+projectId: "stellar-62f9f",
+storageBucket: "stellar-62f9f.ap7pspot.com",
+messagingSenderId: "82409429792",
+appId: "1:82409429792:web:09de1d8e52cc428bec1545",
+measurementId: "G-H4T8B74CK1"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig)
+banco = await db.ref(`Economia/Usuarios/${message.author.id}`).once("value")
+if(!banco.val()) return message.reply(criarconta)
+var money = banco.val().Dinheiro
+db.ref(`Economia/Usuarios/${message.author.id}`)
+.update({
+Dinheiro:money
+})
+
+variavel = 5;
+
+document.getElementById("campo1").innerHTML = 'Valor da variavel: '+money;
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+			body,
+			html {
+			  height: 3000px;
+			  width: 100%;
+			  margin: 0px;
+			  background-color: black
+			}
+
+			.container-fluid {
+			  background-color: #202635;
+			  height: 3000px;
+			  width: 100%;
+			}

@@ -1,0 +1,122 @@
+.active{
+  background-color: greenyellow;
+  color: red;
+}
+.menu{
+	position: fixed;
+	top: 12px;
+	width: 200px;
+	height: 96%;
+	background-color: #202635;
+	border-radius: 9px;
+	border-bottom-right-radius: 9px;
+	box-shadow: 2px 0px 0px rgba(0, 0, 0, 0.5);
+	left: 10px;
+	/* for sidebar to stay on top */
+	z-index: 1;
+	transition: left .7s ease-in-out;
+	
+}
+.exit{
+	position: absolute;
+	top: 9px;
+	right: 5px;
+	width: 50px;
+	height: 50px;
+	font-family: 'Poppins';
+	font-size: 60px;
+	
+}
+.exit:active{
+	position: absolute;
+	top: 9px;
+	right: 6px;
+	width: 50px;
+	height: 50px;
+	font-family: 'Poppins';
+	font-size: 60px;
+transform: rotateZ(90deg);
+	transition-duration: .2s;
+	
+}
+#toggle{
+	display: none;
+	
+}
+#toggle:checked ~ .menu{
+	left: -270px;
+	
+}
+#toggle:checked ~ .container-fluid{
+	background-color: red;
+}
+.nav-item-home{
+	cursor: none;
+	text-decoration: none;
+	position: absolute;
+	top: 110px;
+	width: 90%;
+	height: 50px;
+	left: 3%;
+	background-color: #4C43FF;
+	border-radius: 11px;
+	
+}
+.nav-item{
+	cursor: none;
+	text-decoration: none;
+	position: absolute;
+	width: 94%;
+	height: 50px;
+	left: 2%;
+	background-color: #202649;
+	border-radius: 11px;
+	
+}
+
+.nav-item-home:hover{
+	background-color: #202645;
+}
+.nav-item-icone{
+	position: absolute;
+	left: 4px;
+	top: 10px;
+	width: 30px;
+	
+}
+/*Texto dos itens*/
+
+.nav-item-text{
+	top: 10px;
+	position: absolute;
+	left: 27%;
+	font-weight: bold;
+	font-family: 'Poppins';
+	font-weight: normal;
+	color: white;
+	font-size: 18px;
+	display: inline-block;
+	
+}
+/*Id do posicionamento dos itens*/
+
+#nav-item-perfil{
+	top: 185px;
+	
+}
+#nav-item-comandos{
+	top: 260px;
+	
+}
+#nav-item-servidores{
+	top: 335px;
+	
+}
+#nav-item-atualizacoes{
+	top: 410px;
+	
+}
+#nav-item-suporte{
+	top: 475px;
+	
+}
