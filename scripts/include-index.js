@@ -1,4 +1,4 @@
-fetch("../layout/inde.html")
+fetch("../layout/home.html")
 	.then(response => {
 		return response.text();
 	})
