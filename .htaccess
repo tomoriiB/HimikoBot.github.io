@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /
+
+# Remover extensão do arquivo (exemplo: /arquivo.htlm para /arquivo)
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.htlm [NC]
+RewriteRule ^ %1/ [R,L]
+
+# Adicionar o barra (/) no final do endereço URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule . %{REQUEST_URI}/ [L,R=301]
+
+# Redirecionar internamente as páginas sem extensão para o arquivo correspondente (crucial para o funcionamento da página)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.htlm -f
+RewriteRule ^(.*?)/?$ $1.htlm [L]
