@@ -1,1 +1,1 @@
-User-agent: * Disallow: /scr/icons/
+User-agent: * Disallow: /images/

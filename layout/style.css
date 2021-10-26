@@ -113,7 +113,7 @@ html, body{
 	sans-serif;
 	position: absolute;
 	font-size: 1.3em;
-	top: 435px;
+	top: 62%;
 	left: 20px;
 	color: white;
 }
@@ -146,10 +146,10 @@ html, body{
 	animation: botao infinite 9s;
 }
 #add{
-	top: 480px;
+	top: 68.5%;
 }
 #help{
-	top: 560px; 
+	top: 80%; 
 }
 .link-botoes{
 	position: absolute;
@@ -190,14 +190,14 @@ html, body{
 }
 .termos{
 	position: absolute;
-	bottom: 18px;
+	bottom: 4%;
 	left: 20px;
 	font-size: .9em;
 	color: black;
 }
 .copyright{
 	position: absolute;
-	bottom: 5px;
+	bottom: 1%;
 	left: 20px;
 	font-size: .5em;
 }
