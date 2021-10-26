@@ -201,3 +201,9 @@ html, body{
 	left: 20px;
 	font-size: .5em;
 }
+@media screen and (max-height: 700px){
+	.copyright{
+		display: none;
+		color: seagreen;
+	}
+}
