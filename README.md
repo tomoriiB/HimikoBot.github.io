@@ -1,4 +1,4 @@
-<img style="width: 150px;" scr="images/web/oo.png" alt="pfp">
+<img style="width: 150px;" scr="https://himikobot.github.io/images/web/oo.png" alt="pfp">
 
 # Himiko Site
 
